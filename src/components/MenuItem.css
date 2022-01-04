@@ -1,0 +1,22 @@
+.MenuItem__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin: 6px 0;
+}
+
+.MenuItem__icon {
+  width: 6%;
+}
+.MenuItem__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 75%;
+}
+.MenuItem__dish {
+  font-weight: bold;
+}
