@@ -3,7 +3,7 @@
   display: inline-block;
 }
 
-.IconButton a {
+.IconButton span {
   margin: 12px;
 
   color: white;
@@ -36,7 +36,7 @@
   border-radius: 100px;
 }
 
-.IconButton a:active {
+.IconButton span:active {
   top: 10px;
 
   /* background-color: #f4511e; */

@@ -23,7 +23,7 @@ const IconButton = ({ name = icons.default, handleClick, text }) => {
           alignItems: "center",
         }}
       >
-        <a href="#">{icon}</a>
+        <span>{icon}</span>
         <div className="IconButton__text">{text}</div>
       </div>
     </div>

@@ -66,10 +66,10 @@ function App() {
               style={{ width: "50%", marginLeft: "25%", marginTop: "12px" }}
             >
               <div className="button">
-                <a href="#">-</a>
+                <span>-</span>
               </div>
               <div className="button">
-                <a href="#">+</a>
+                <span>+</span>
               </div>
             </div>
             {/*  */}

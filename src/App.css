@@ -41,7 +41,7 @@ body {
   margin: 15px;
 }
 
-.button a {
+.button span {
   color: white;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
@@ -74,7 +74,7 @@ body {
   border-radius: 100px;
 }
 
-.button a:active {
+.button span:active {
   top: 10px;
   background-color: #f78900;
 
