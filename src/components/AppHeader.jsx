@@ -15,6 +15,7 @@ const AppHeader = () => {
       >
         <img
           style={{ width: 180, marginBottom: "20px" }}
+          alt="Restaurant logo"
           src={
             "https://image.freepik.com/free-vector/restaurant-logo_23-2148558726.jpg"
           }

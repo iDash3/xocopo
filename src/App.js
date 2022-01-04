@@ -8,7 +8,7 @@ import MenuComponent from "./components/MenuComponent";
 
 function App() {
   const [mainPageBool, setMainPageBool] = useState(true);
-  const [displayList, setDisplayList] = useState(false);
+  const [displayList] = useState(false);
 
   return (
     <div
@@ -66,10 +66,10 @@ function App() {
               style={{ width: "50%", marginLeft: "25%", marginTop: "12px" }}
             >
               <div className="button">
-                <a>-</a>
+                <a href="">-</a>
               </div>
               <div className="button">
-                <a>+</a>
+                <a href="">+</a>
               </div>
             </div>
             {/*  */}

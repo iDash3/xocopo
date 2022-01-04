@@ -14,10 +14,6 @@ const ExpandableSection = ({ title, children, inverted, level = 0 }) => {
     { text: "black", backgroundColor: levelColors[level] },
   ][level];
 
-  const componentStyles = !inverted
-    ? { text: "white", backgroundColor: levelColors[0] }
-    : { text: "black", backgroundColor: levelColors[1] };
-
   const handleExpanded = () => {
     setExpanded(!expanded);
   };
