@@ -70,10 +70,6 @@ function App() {
               </div>
               <div className="button">
                 <a href="#">+</a>
-
-  const componentStyles = !inverted
-    ? { text: "white", backgroundColor: levelColors[0] }
-    : { text: "black", backgroundColor: levelColors[1] };
               </div>
             </div>
             {/*  */}
