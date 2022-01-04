@@ -66,10 +66,14 @@ function App() {
               style={{ width: "50%", marginLeft: "25%", marginTop: "12px" }}
             >
               <div className="button">
-                <a href="">-</a>
+                <a href="#">-</a>
               </div>
               <div className="button">
-                <a href="">+</a>
+                <a href="#">+</a>
+
+  const componentStyles = !inverted
+    ? { text: "white", backgroundColor: levelColors[0] }
+    : { text: "black", backgroundColor: levelColors[1] };
               </div>
             </div>
             {/*  */}
