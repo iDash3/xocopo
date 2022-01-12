@@ -3,13 +3,12 @@ import "./AdminTmp.css";
 
 import MenuItem from "./MenuItem";
 import dummyMenu from "./dummyMenu";
-import colors from "../config/colors";
 import ExpandableSection from "./ExpandableSection";
 import ExpandableInput from "./ExpandableInput";
 
 import { IoMdAddCircle } from "react-icons/io";
 
-const AdminTmp = ({}) => {
+const AdminTmp = () => {
   const handleItemClick = () => {
     console.log("yeahh");
   };

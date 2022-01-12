@@ -2,13 +2,8 @@ import React, { useState } from "react";
 import "./ExpandableSection.css";
 
 import colors from "../config/colors";
-import {
-  IoIosArrowUp,
-  IoIosArrowDown,
-  IoMdAddCircle,
-  IoMdClose,
-} from "react-icons/io";
-import { MdEdit, MdDelete, MdPlusOne } from "react-icons/md";
+import { IoIosArrowUp, IoIosArrowDown, IoMdClose } from "react-icons/io";
+import { MdEdit, MdDelete } from "react-icons/md";
 
 const ExpandableInput = ({ title, children, inverted, level = 0 }) => {
   const [expanded, setExpanded] = useState(false);
@@ -27,9 +22,6 @@ const ExpandableInput = ({ title, children, inverted, level = 0 }) => {
 
   const handleDelete = () => {
     alert("Delete!");
-  };
-  const handleAdd = () => {
-    alert("Add");
   };
   const handleEdit = (action) => {
     if (action === "open") {
