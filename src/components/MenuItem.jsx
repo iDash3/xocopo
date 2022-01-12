@@ -10,7 +10,6 @@ const MenuItem = ({ price, title, subTitle, onItemClick }) => {
     if (!hearted) onItemClick({ title, price, delete: false });
     else onItemClick({ title, price, delete: true });
     setHearted(!hearted);
-    alert(`You bought ${title} for ${price}. \nThis will look better.`);
   };
 
   return (

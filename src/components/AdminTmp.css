@@ -1,0 +1,37 @@
+.AdminTmp {
+  text-align: center;
+}
+.AdminTmp__one {
+  background-color: #bcaaa4;
+  margin: 5px;
+  margin-top: 20px;
+}
+.AdminTmp__two {
+  background-color: #d7ccc8;
+  border: 3px dashed #37474f;
+  margin: 9px 5px;
+  padding: 8px 0;
+}
+.AdminTmp__three {
+  background-color: #efebe9;
+  margin: 9px 5px;
+  padding: 5px 0;
+  border: 3px dotted #78909c;
+}
+.AdminTmp__one h3,
+h5,
+p {
+  margin: 6px 0;
+  padding: 3px 0;
+}
+
+/*  */
+.InputItem {
+  display: grid;
+  grid-template-columns: 30% 50% 12%;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.InputItem input {
+  margin: 0;
+}

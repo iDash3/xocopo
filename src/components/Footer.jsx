@@ -2,7 +2,8 @@ import React from "react";
 import "./Footer.css";
 import colors from "../config/colors";
 
-import { MdRestaurantMenu, MdHome, MdList } from "react-icons/md";
+import { Link } from "react-router-dom";
+import { MdRestaurantMenu, MdHome, MdList, MdFoodBank } from "react-icons/md";
 
 const Footer = ({
   backgroundColor = colors.levelOne,
@@ -17,13 +18,22 @@ const Footer = ({
 
   return (
     <div className="Footer" style={{ backgroundColor }}>
-      <div
-        className="Footer__button"
-        onClick={() => handleClick()}
-        style={{ color: "white" }}
-      >
-        {!home ? <MdHome /> : <MdRestaurantMenu />}
+      <div onClick={() => handleClick()}>
+        {!home ? (
+          <Link to="/" className="Footer__button">
+            <MdHome style={{ color: "white" }} />
+          </Link>
+        ) : (
+          <Link to="/menu" className="Footer__button">
+            <MdRestaurantMenu style={{ color: "white" }} />
+          </Link>
+        )}
       </div>
+      <Link to="/admin">
+        <div className="Footer__tmp" style={{ color: "white" }}>
+          <MdFoodBank />
+        </div>
+      </Link>
       {displayList && (
         <div className="Footer__list" style={{ color: "white" }}>
           <MdList />
